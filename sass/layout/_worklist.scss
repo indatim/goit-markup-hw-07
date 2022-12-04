@@ -2,20 +2,35 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 0;
+
+&__section {
+    padding-top: 0;
+    padding-bottom: 94px;
 }
 
-.worklist li {
+&__title {
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+li {
     position: relative;
     overflow: hidden;
 }
 
-.worklist-img {
+&__img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.worklist .label {
+&__label {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,19 +53,4 @@
     margin: 0;
 }
 
-.worklist-section {
-    padding-top: 0;
-    padding-bottom: 94px;
-}
-
-.worklist-title {
-    // display: flex;
-    color: $title-text-color;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-top: 0;
-    margin-bottom: 50px;
 }
